@@ -7,19 +7,29 @@
 ######Задание№1
 Изменить исходный <code>compare.R</code> файл так, чтобы гистограммы строились на основе пары выборочная вероятность/прогнозируемая вероятность без генерации массивов данных.
 (Подсказка: использовать barplot).
+######Исходники: [sources](/src/PAKDD2014/task1/compare.R)
+######Отчет: [sources](/src/PAKDD2014/task1/task1.txt)
 
 ######Задание№2
 Изменить исходный файл <code>predict.R</code> так, чтобы он допускал задание интенсивности <code>rate</code> для конкретной пары модуль/компонент.
+######Исходники: [sources](/src/PAKDD2014/task2/predict.R)
+######Отчет: [sources](/src/PAKDD2014/task2/task2.txt)
 
 ######Задание№3
 Ввести меру качества прогноза, сравнивая спрогнозированные величины с фактическими величинами.
+######Исходники: [sources](/src/PAKDD2014/task3/predict.R)
+######Отчет: [sources](/src/PAKDD2014/task3/task3.txt)
 
 ######Задание№4
 Подобрать параметры rate так, чтобы прогноз на основе экспоненциальной модели был наиболее точен. Насколько подобранные параметры соответствуют гистограммам из <code>compare.R</code>
+######Исходники: [sources](/src/MNIST%20Digit%20Recognizer/task5/task5.r)
+######Отчет: [sources](/src/MNIST%20Digit%20Recognizer/task5/task5.txt)
 
 ##### MNIST Digit Recognizer:
 ######Задание№5
 Составить скрипт, выводящий на экран растровый рисунок (цифру), зашифрованный в указанной строке <code>train.csv</code> или <code>test.csv</code>.
+######Исходники: [sources](/src/Otto%20Group%20Classification%20Challenge/task6/task6.r)
+######Отчет: [sources](/src/Otto%20Group%20Classification%20Challenge/task6/task6.txt)
 
 #####Otto Group Classification Challenge
 ######Задание№6 
