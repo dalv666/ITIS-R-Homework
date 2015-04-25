@@ -38,14 +38,16 @@ ___
 <ul>
 <li>Составить скрипт, выводящий на экран растровый рисунок (цифру), зашифрованный в указанной строке <code>train.csv</code> или <code>test.csv</code>.</li>
 </ul>
-######Исходники: [sources](/src/Otto%20Group%20Classification%20Challenge/task6/task6.r)
-######Отчет: [report](/src/Otto%20Group%20Classification%20Challenge/task6/task6.txt)
+######Исходники: [sources](/src/MNIST%20Digit%20Recognizer/task5/task5.r)
+######Отчет: [report](/src/MNIST%20Digit%20Recognizer/task5/task5.txt)
 ___
 #####Otto Group Classification Challenge
 ######Задание№6 
 <ul>
 <li>Разделить train.csv на две таблицы, условно-тренировочную и условно-тестовую, в отношении 3:1.</li>
 </ul>
+######Исходники: [sources](/src/Otto%20Group%20Classification%20Challenge/task6/task6.r)
+######Отчет: [report](/src/Otto%20Group%20Classification%20Challenge/task6/task6.txt)
 ___
 ######Задание№7 
 <ul>
