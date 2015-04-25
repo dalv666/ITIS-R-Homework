@@ -1,0 +1,10 @@
+﻿Для задания интенсивности (rate) для конкретной пары модуль/компонент был создан csv файл Category_Component_Rate.
+Файл считывается в программе и берет значение rate из него, если значения нету он подставляет определенное значение.
+
+findRateByComponentAndCategory <- function(module, component,source){
+rate <- subset(source, source$component_category==component & source$module_category==module)
+if(length(rate$rate) == 0){
+  return(5e-6)
+}
+return(rate$rate)
+}

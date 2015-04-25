@@ -1,0 +1,21 @@
+﻿Для того что бы разделить массив данных, он был прочтен в файл, потом были выбраны цифры которые находятся в данных,
+
+uniqueNumbers <- sort(unique(train.src$label))
+
+потом найдено количество вхождение каждой цифры. 
+
+numbersTable <- table(numbers)
+numbersCount <- NULL
+for(num in uniqueNumbers){
+	numbersCount[num+1] <- numbersTable[names(numbersTable)==num]
+}
+
+Изначальный массив был отсортирован по label.
+numbers <- sort(train.src$label)
+
+Далее нужно было правильно настроить отступы для каждой цифры, часть данных конкатенировалась в один dataframe, остальная в другой.
+
+Осталось записать данные в отдельные файлы
+
+write.csv(firstTest, "firstTrain.csv",row.names=FALSE)
+write.csv(secondTest, "secondTrain.csv",row.names=FALSE)

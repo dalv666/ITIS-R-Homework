@@ -1,0 +1,6 @@
+[1] "Quality of prediction is 87.4257266734082% with rate=2e-06"
+[1] "Quality of prediction is 81.1389556339097% with rate=3e-06"
+[1] "Quality of prediction is 74.8524283304233% with rate=4e-06"
+[1] "Quality of prediction is 68.5661447530595% with rate=5e-06"
+[1] "Quality of prediction is 62.28010489193% with rate=6e-06"
+[1] "Quality of prediction is 55.9943087371463% with rate=7e-06"

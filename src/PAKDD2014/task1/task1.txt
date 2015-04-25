@@ -1,0 +1,27 @@
+Как было сказано для целей разработки и отладки удобнее "большой" for сделать для одного компонента(4)
+Функцию hist нужно заменить "ручной" функцией barplot, но для этого нужно подготовить данные.
+Для выборочной вероятности
+bars <- NULL
+  for (i in 1:columnsCount) {
+    bars[i] <- 0
+    for(j in 1:length(joint[,1]))
+      if((i-1)*myPeriod <= joint[j, "period"] && joint[j, "period"] < i*myPeriod)
+        bars[i] <- bars[i] + joint[j, "prob"]
+  }
+
+где 
+myPeriod = 5 - магическое число для гистограммы
+columnsCount = (max(periods) %/% myPeriod) + 1 - количество столбцов
+Выводим этот график
+
+Для прогнозируемый вероятности выведем несколько графиков с разным rate
+rates <- (2:7) * 0.000001
+for(rate in rates)
+{
+  rbars <- NULL
+  for (i in 1:columnsCount) {
+    rbars[i] <- pexp(i*myPeriod, rate) - pexp((i-1)*myPeriod, rate)
+  }
+    barplot(rbars);
+}
+
