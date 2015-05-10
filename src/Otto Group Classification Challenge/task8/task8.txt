@@ -1,0 +1,26 @@
+Для нахождения меры качества прогноза нужно было воспользоваться данными предыдущей задачи и 
+подсчитать количество несовпадений результатов предсказаний с известными результатами. 
+Для этого в одном случае, где результатом предсказаний были название классов нужно было лишь 
+подсчитать количество ошибок и подсчитать в процентном соотношении с количеством правильно 
+предсказанных.
+mistake <- 0
+for(i in 1:length(predictions)){
+	class = toString(test.src[i,length(test.src)])
+	if(predictions[i]!=class){
+		mistake = mistake + 1
+	}
+}
+qa = 100 - (mistake/length(predictions)*100)
+if(qa<0){
+	qa = qa * -1
+}
+В другом случае нужно было сделать аналогично, но результатом предсказаний было число и 
+для этого было принято решений преобразовывать истинный результат в число и сравнивать 
+с предсказанным.
+	class = toString(test.src[i,length(test.src)])
+	classLength = nchar(class)
+	classNum = as.numeric(substr(class, classLength,classLength))
+	if(as.numeric(results[i])!=classNum){
+		mistake = mistake + 1
+		result = paste(c(results[i], classNum), collapse = " ")
+	}

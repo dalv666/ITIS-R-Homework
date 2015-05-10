@@ -1,0 +1,22 @@
+Для отправки результата нужно было привести предсказания к определенному виду.
+«id,Class_1,Class_2,Class_3,Class_4,Class_5,Class_6,Class_7,Class_8,Class_9»
+Для этого было принято решение колонку id сдублировать с тестовых данных, а в остальные ячейки 
+загнать нули.
+zeroReplicate.data = rep.int(0, length(test.src[,1]))
+result <- data.frame(row.names = NULL, id=test.src[,1], Class_1=zeroReplicate.data, Class_2=zeroReplicate.data,
+Class_3=zeroReplicate.data, Class_4=zeroReplicate.data, Class_5=zeroReplicate.data, Class_6=zeroReplicate.data, 
+Class_7=zeroReplicate.data, Class_8=zeroReplicate.data, Class_9=zeroReplicate.data)
+
+После полученных предсказаний нужно было пробежаться про ним и в нужной ячейки советующему 
+предсказанию поставить 1. Для этого нужно было взять номер класса и сдвинуть на 1 в бок так как слева 
+присутствует колонка Id.
+
+for(i in 1:length(predictions)){
+	class = toString(predictions[i])
+	classLength = nchar(class)
+	classNum = as.numeric(substr(class, classLength,classLength))
+	result[i,(classNum+1)] = 1
+}
+
+Мой результат можно посмотреть на станице https://www.kaggle.com/users/336195/dalv 
+в разделе results на момент отправки я находился на 2934 месте из 3438. Что весьма не густо :)
