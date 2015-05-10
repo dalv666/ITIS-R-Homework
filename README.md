@@ -70,19 +70,19 @@ ___
 8a-8b -- аналогично 7a--7b.</li>
 </ul>
 ######Исходники: [sources](/src/Otto%20Group%20Classification%20Challenge/task8/)
-######Отчет: [report](/src/Otto%20Group%20Classification%20Challenge/task7/task8.txt)
+######Отчет: [report](/src/Otto%20Group%20Classification%20Challenge/task8/task8.txt)
 ___
 ######Задание№9
 <ul>
 <li>Подобрать метод и его параметры так, чтобы прогноз получался как можно лучше.</li>
 </ul>
 ######Исходники: [sources](/src/Otto%20Group%20Classification%20Challenge/task9/)
-######Отчет: [report](/src/Otto%20Group%20Classification%20Challenge/task7/task9.txt)
+######Отчет: [report](/src/Otto%20Group%20Classification%20Challenge/task9/task9.txt)
 ___
 ######Задание№10
 <ul>
 <li>Используя полностью train.csv в качестве обучающего массива, предсказать результаты </li>
 </ul>
 ######Исходники: [sources](/src/Otto%20Group%20Classification%20Challenge/task10/rf_benchmark.r)
-######Отчет: [report](/src/Otto%20Group%20Classification%20Challenge/task7/task10.txt)
+######Отчет: [report](/src/Otto%20Group%20Classification%20Challenge/task10/task10.txt)
 
