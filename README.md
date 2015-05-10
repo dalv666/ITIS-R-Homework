@@ -83,6 +83,6 @@ ___
 <ul>
 <li>Используя полностью train.csv в качестве обучающего массива, предсказать результаты </li>
 </ul>
-######Исходники: [sources](/src/Otto%20Group%20Classification%20Challenge/task10/rf_benchmark.r)
+######Исходники: [sources](/src/Otto%20Group%20Classification%20Challenge/task10/rf_benchmark.R)
 ######Отчет: [report](/src/Otto%20Group%20Classification%20Challenge/task10/task10.txt)
 
