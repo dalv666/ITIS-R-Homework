@@ -25,6 +25,7 @@ ___
 <ul>
 <li>Ввести меру качества прогноза, сравнивая спрогнозированные величины с фактическими величинами.</li>
 </ul>
+
 ###### Исходники: [sources](/src/PAKDD2014/task3/predict.R)
 ###### Отчет: [report](/src/PAKDD2014/task3/Task3.txt)
 ___
@@ -32,6 +33,7 @@ ___
 <ul>
 <li>Подобрать параметры rate так, чтобы прогноз на основе экспоненциальной модели был наиболее точен. Насколько подобранные параметры соответствуют гистограммам из <code>compare.R</code></li>
 </ul>
+
 ###### Исходники: [sources](/src/MNIST%20Digit%20Recognizer/task5/task5.r)
 ###### Отчет: [report](/src/MNIST%20Digit%20Recognizer/task5/task5.txt)
 ___
@@ -40,6 +42,7 @@ ___
 <ul>
 <li>Составить скрипт, выводящий на экран растровый рисунок (цифру), зашифрованный в указанной строке <code>train.csv</code> или <code>test.csv</code>.</li>
 </ul>
+
 ###### Исходники: [sources](/src/MNIST%20Digit%20Recognizer/task5/task5.r)
 ###### Отчет: [report](/src/MNIST%20Digit%20Recognizer/task5/task5.txt)
 ___
@@ -48,6 +51,7 @@ ___
 <ul>
 <li>Разделить train.csv на две таблицы, условно-тренировочную и условно-тестовую, в отношении 3:1.</li>
 </ul>
+
 ###### Исходники: [sources](/src/Otto%20Group%20Classification%20Challenge/task6/task6.r)
 ###### Отчет: [report](/src/Otto%20Group%20Classification%20Challenge/task6/task6.txt)
 ___
@@ -62,6 +66,7 @@ ___
   (В качестве отправной точки используйте R-скрипты Digit Recognizer.)
 </li>
 </ul>
+
 ###### Исходники: [sources](/src/Otto%20Group%20Classification%20Challenge/task7/)
 ###### Отчет: [report](/src/Otto%20Group%20Classification%20Challenge/task7/task7.txt)
 ___
@@ -71,6 +76,7 @@ ___
 Изменяется ли мера качества прогноза, если по-разному выбирать условно-тренировочные и условно-тестовые части?
 8a-8b -- аналогично 7a--7b.</li>
 </ul>
+
 ###### Исходники: [sources](/src/Otto%20Group%20Classification%20Challenge/task8/)
 ###### Отчет: [report](/src/Otto%20Group%20Classification%20Challenge/task8/task8.txt)
 ___
@@ -78,6 +84,7 @@ ___
 <ul>
 <li>Подобрать метод и его параметры так, чтобы прогноз получался как можно лучше.</li>
 </ul>
+
 ###### Исходники: [sources](/src/Otto%20Group%20Classification%20Challenge/task9/)
 ###### Отчет: [report](/src/Otto%20Group%20Classification%20Challenge/task9/task9.txt)
 ___
@@ -85,6 +92,7 @@ ___
 <ul>
 <li>Используя полностью train.csv в качестве обучающего массива, предсказать результаты </li>
 </ul>
+
 ###### Исходники: [sources](/src/Otto%20Group%20Classification%20Challenge/task10/rf_benchmark.R)
 ###### Отчет: [report](/src/Otto%20Group%20Classification%20Challenge/task10/task10.txt)
 
