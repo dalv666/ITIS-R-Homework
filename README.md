@@ -10,6 +10,14 @@
 (Подсказка: использовать barplot).</li>
 </ul> 
 ###### Исходники:   
+
+
+
+
+
+
+
+
 [sources](/src/PAKDD2014/task1/compare.R)
 ###### Отчет: 
 [report](/src/PAKDD2014/task1/task1.txt)
