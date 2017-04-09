@@ -17,8 +17,9 @@ ___
 <ul>
 <li>Изменить исходный файл <code>predict.R</code> так, чтобы он допускал задание интенсивности <code>rate</code> для конкретной пары модуль/компонент.</li>
 </ul>
-###### Исходники: [sources](/src/PAKDD2014/task2/predict.R)
-###### Отчет: [report](/src/PAKDD2014/task2/task2.txt)
+
+###### Исходники: [sources](/src/PAKDD2014/task2/predict.R) 
+###### Отчет: [report](/src/PAKDD2014/task2/task2.txt) 
 ___
 ###### Задание№3
 <ul>
